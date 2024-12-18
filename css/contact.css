@@ -1,0 +1,125 @@
+body {
+	line-height: 1.5;
+	font-size: 17px;
+	color: #636363;
+    font-family: 'Lato', sans-serif;
+}
+.shadow-bottom {
+	box-shadow: 0 1px 0 rgba(12, 13, 14, .1), 0 1px 6px rgba(59, 64, 69, .1);
+}
+.ml-auto {
+    margin-left: auto;
+}
+.navbar {
+	padding: 0;
+}
+.navbar .nav-item .nav-link {
+	text-transform: uppercase;
+	padding: 10px 15px !important;
+	font-size: 15px;
+}
+
+/* header area end */
+/* contact area start */
+
+.section {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.text-primary {
+	color: #02007e !important;
+}
+.section-title {
+	margin-bottom: 40px;
+}
+h2 {
+	font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+p {
+	color: #636363;
+	font-size: 15px;
+}
+a, button, select {
+	cursor: pointer;
+	transition: .2s ease;
+}
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #02007e;
+}
+.shadow {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .15) !important;
+	transition: .3s ease;
+}
+.form-control {
+	height: 50px;
+	border-radius: 25px !important;
+	border: 0;
+	padding: 0 20px;
+}
+textarea.form-control {
+	height: 150px;
+	padding: 20px;
+}
+.btn {
+	font-size: 14px;
+	font-family: var(--font-family), sans-serif;
+	text-transform: uppercase;
+	padding: 16px 44px;
+	font-weight: 600;
+	border: 0;
+	position: relative;
+	z-index: 1;
+	transition: .2s ease;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.btn-primary {
+	background: #02007e;
+	color: white !important;
+}
+a:hover {
+    color: white !important;
+}
+.btn-primary:hover, .btn-primary:focus {
+    color: white;
+    background-color: #02007e;
+    border-color: #02007e;
+    box-shadow: none;
+}
+.btn:hover {
+    color: white !important;
+}
+.shadow:hover, .shadow:focus {
+	box-shadow: 0 14px 25px rgba(0, 0, 0, .2) !important;
+}
+
+/* contact area end */
+/* footer area end */
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #02007e !important;
+}
+.text-md-left {
+	text-align: left !important;
+}
+.text-md-right {
+	text-align: right !important;
+}
+.list-inline {
+	margin-bottom: 0;
+}
+.text-color {
+	color: #636363 !important;
+}
+.text-color i {
+	transition: .2s ease;
+}
+a:hover i {
+	color: #02007e;
+}
+
+/* footer area end */
